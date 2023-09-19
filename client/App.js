@@ -25,7 +25,6 @@ function App() {
       <div className="container">
         <ToastContainer position="top-center" />
         <Routes>
-       
         <Route path="/Home" element={<Home />} />
           <Route path="/Memberform" element={<Memberform />} />
           <Route path="/Gallery" element={<Gallery />} />
